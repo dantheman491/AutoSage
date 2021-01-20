@@ -57,34 +57,16 @@ Airtable enabled API
 
 ### Component Breakdown:
 
-  Component | Priority | Estimated Time |  Actual Time |
+  Type | State |  Props | Description|
 | --- | :---: |  :---: | :---: |
-|Header Nav | H | 3hrs| |
-|Footer| H | 2hrs||
-|drop-down menu| H|2hrs||
-| Finish Setup airtable API| H| |
-| Add API | H | 4hrs | |
-| Setup Route| H| 3hrs||
-| Setup Links | H | 4hrs| |
-| API added | H | 2hrs| |
-| Testing | H | 3hrs||
-|CSS| H|6hrs||
-| Total | H | hrs| |
+|Header	functional | N | N|  The header will contain the navigation and logo|
+|Car	class| Y | Y|The gallery will render the cars using card divs in flex-gird|
+|Car Card| N| Y|The card will render when user clicks on a car from gallery|
+| Dropdown	functional| N | Y |Dropdown search input will allow the user to search cars by selecting an option |
+| Summary card	class| N | Y | Component will contain meal plan summary and render on submit|
+| Contact Form	functional| N| Y | There will be a contact form rendered through a link in the header|
+| Footer	functional | N | N| The footer will have links to contact and about info|
 
-
-
-
-
-
-Component |	Type |	State |	Props |	Description |
-| --- | :---: |  :---: | :---: |
-|Header	functional|	n	| n	| The header will contain the navigation and logo.|
-|Car	class|	y	| y	| The gallery will render the cars using card divs in flex-gird|
-|Car Card|	class	| n |	y	| The card will render when user clicks on a car from gallery|
-|Dropdown	functional|	n	| y	| Dropdown search input will allow the user to search cars by selecting an option|
-|Summary card	class|	n	| y	| Component will contain meal plan summary and render on submit|
-|Contact Form	functional|	n	| n	| There will be a contact form rendered through a link in the header|
-|Footer	functional|	n |	n	|The footer will have links to contact and about info |
 
 ### Priority Matrix:
 
