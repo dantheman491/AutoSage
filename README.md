@@ -51,29 +51,7 @@ Airtable enabled API
 <img src="https://user-images.githubusercontent.com/22455354/105203926-a70ab300-5b11-11eb-8e16-a4e66b494da4.jpg" width="250" height="400">|
 
 ### Component Heirarchy:
-src
-|__ components/
-      |__ Header/
-        |__ Header.jsx
-        |__ Header.css
-      |__ car-name/
-        |__ car-name.jsx
-        |__ car-name.css  
-      |__ car-card/
-        |__ car-card.jsx
-        |__ car-card.css  
-      |__ drop-down/
-        |__ drop-down.jsx
-        |__ drop-down.css   
-      |__ summary-card/
-        |__ Summary Card.jsx
-        |__ Summary Card.css  
-      |__ contact-form/
-        |__ contact-form.jsx
-        |__ contact-form.css    
-      |__ footer/
-        |__ footer.jsx
-        |__ footer.css
+ <img src="https://user-images.githubusercontent.com/22455354/105209938-65313b00-5b18-11eb-92c7-b40c87ad5473.jpg" width="800" height="400">
 
 
 ###Component Breakdown
