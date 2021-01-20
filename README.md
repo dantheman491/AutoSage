@@ -36,12 +36,12 @@ Airtable enabled API
 |         Desktop          |            Tablet            |               Mobile            |
 | -------------------------| -----------------------------| --------------------------------|
 
-|<img src="https://user-images.githubusercontent.com/22455354/102790153-0ccd1900-4373-11eb-9bd5-ac2209ce4477.png" width="300" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790414-659cb180-4373-11eb-8401-39e8c7fe628c.png" width="250" height="400">|<img src="https://user-images.githubusercontent.com/22455354/102790422-69303880-4373-11eb-862a-35da9a571446.png" width="150" height="400"> 
+|<img src="https://user-images.githubusercontent.com/22455354/105115355-9f59f880-5a96-11eb-8463-9247af14464a.jpg" width="300" height="400">|<img src="https://user-images.githubusercontent.com/22455354/105115362-a3861600-5a96-11eb-83dd-ac2ed3ebbac8.jpg" width="250" height="400">|
 
 
 ### Priority Matrix:
 
-<img src="https://user-images.githubusercontent.com/22455354/102794718-c333fc80-4379-11eb-8a3c-1c8d51663abc.jpg" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/22455354/105115215-6a4da600-5a96-11eb-9779-c9ae0b608a8a.jpg" width="400" height="400">
 
 
 ### Timeframe:
