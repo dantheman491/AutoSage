@@ -51,8 +51,41 @@ Airtable enabled API
 <img src="https://user-images.githubusercontent.com/22455354/105203926-a70ab300-5b11-11eb-8e16-a4e66b494da4.jpg" width="250" height="400">|
 
 ### Component Heirarchy:
+src
+|__ components/
+      |__ Header/
+        |__ Header.jsx
+        |__ Header.css
+      |__ car-name/
+        |__ car-name.jsx
+        |__ car-name.css  
+      |__ car-card/
+        |__ car-card.jsx
+        |__ car-card.css  
+      |__ drop-down/
+        |__ drop-down.jsx
+        |__ drop-down.css   
+      |__ summary-card/
+        |__ Summary Card.jsx
+        |__ Summary Card.css  
+      |__ contact-form/
+        |__ contact-form.jsx
+        |__ contact-form.css    
+      |__ footer/
+        |__ footer.jsx
+        |__ footer.css
 
 
+###Component Breakdown
+
+Component	Type	State	Props	Description
+Header	functional	n	n	The header will contain the navigation and logo.
+car	class	y	y	The gallery will render the cars using card divs in flex-gird
+car Card	class	n	y	_The card will render when user clicks on a car from gallery
+dropdown	functional	n	y	dropdown search input will allow the user to search cars by selecting an option
+summary card	class	n	y	Component will contain meal plan summary and render on submit
+Contact Form	functional	n	n	Will be a contact form rendered through a link in the header
+Footer	functional	n	n	_The footer will have links to contact and about info _
 ### Priority Matrix:
 
 <img src="https://user-images.githubusercontent.com/22455354/105115215-6a4da600-5a96-11eb-9779-c9ae0b608a8a.jpg" width="400" height="400">
@@ -63,11 +96,13 @@ Airtable enabled API
  Component | Priority | Estimated Time |  Actual Time |
 | --- | :---: |  :---: | :---: |
 | REACT JS | H | 3hrs| |
+| Setup Route| H| 3hrs||
+| Setup Components| H| |
 | CSS | H | 5hrs | |
-| Inputs | H | 2hrs| |
+| Inputs | H | 4hrs| |
 | API added | H | 2hrs| |
 | Testing | H | 3hrs||
-| Total | H |18 hrs| |
+| Total | H | hrs| |
  
 ### Snippet: 
 
