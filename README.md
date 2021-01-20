@@ -11,7 +11,7 @@ Seeking sound advice on purchasing a used car can be difficult. It would be much
 Airtable enabled API
 
 ### API and Data Sample: 
-<img src="https://user-images.githubusercontent.com/22455354/105202398-f223c680-5b0f-11eb-8dff-14b4913eff66.png" width="800" height="400">
+<img src="https://user-images.githubusercontent.com/22455354/105222979-31124600-5b29-11eb-9086-04347a7a9fba.png" width="800" height="400">
 
 ### MVP Minimal Viable Product: 
 1. Build out React Js, CSS, HTML
@@ -61,7 +61,7 @@ Airtable enabled API
 | --- | :---: |  :---: | :---: |
 |Header	functional | N | N|  The header will contain the navigation and logo|
 |Car	class| Y | Y|The gallery will render the cars using card divs in flex-gird|
-|Car Card| N| Y|The card will render when user clicks on a car from gallery|
+|Car card| N| Y|The card will render when user clicks on a car from gallery|
 | Dropdown	functional| N | Y |Dropdown search input will allow the user to search cars by selecting an option |
 | Summary card	class| N | Y | Component will contain meal plan summary and render on submit|
 | Contact Form	functional| N| Y | There will be a contact form rendered through a link in the header|
