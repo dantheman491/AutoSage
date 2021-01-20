@@ -5,7 +5,7 @@
 
 ### App Description:
 
-Seeking sound advice on purchasing a used car can be difficult. It would be much easier with sage advice. AutoSage advice.
+Seeking sound advice on purchasing a used car can be difficult. It would be much easier with sage advice. AutoSage advice. Users will be able to find information on  a vehicle after selecting a budget to start with. From there, users will be able to know: year, make, model, price, and specifications on selected vehicles.
 
 ### API: 
 Airtable enabled API
@@ -46,6 +46,11 @@ Airtable enabled API
 
 
 <img src="https://user-images.githubusercontent.com/22455354/105115362-a3861600-5a96-11eb-83dd-ac2ed3ebbac8.jpg" width="250" height="400">|
+<img src="https://user-images.githubusercontent.com/22455354/105203910-a3772c00-5b11-11eb-9a4d-8d390d78cac1.jpg" width="250" height="400">|
+<img src="https://user-images.githubusercontent.com/22455354/105203945-ad009400-5b11-11eb-884c-3e13156d7913.jpg" width="250" height="400">|
+<img src="https://user-images.githubusercontent.com/22455354/105203926-a70ab300-5b11-11eb-8e16-a4e66b494da4.jpg" width="250" height="400">|
+
+### Component Heirarchy:
 
 
 ### Priority Matrix:
