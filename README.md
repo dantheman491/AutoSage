@@ -24,7 +24,7 @@ Airtable enabled API
 
 ### Post MVP: 
 1. I would ike to add images
-2. I would like to links to kbb for more information.
+2. I would like to add links to kbb.com for more information.
 3. I would like to add information on cars for sale in the area.
 4. I would like to add allow to print specifications on selected vehicle. 
 
