@@ -57,15 +57,15 @@ Airtable enabled API
 
 ### Component Breakdown:
 
-Component |	Type|	State |	Props |	Description |
+Component |	Type |	State |	Props |	Description |
 | --- | :---: |  :---: | :---: |
-|Header	functional|	n	| n	|The header will contain the navigation and logo.|
-|Car	class|	y	| y	|The gallery will render the cars using card divs in flex-gird|
-|Car Card|	class	| n |	y	|The card will render when user clicks on a car from gallery|
-|Dropdown	functional|	n	| y	| dropdown search input will allow the user to search cars by selecting an option|
-|Summary card	class|	n	| y	|Component will contain meal plan summary and render on submit|
-|Contact Form	functional|	n	|n	| Will be a contact form rendered through a link in the header|
-|Footer	functional|	n|	n	|The footer will have links to contact and about info |
+|Header	functional|	n	| n	| The header will contain the navigation and logo.|
+|Car	class|	y	| y	| The gallery will render the cars using card divs in flex-gird|
+|Car Card|	class	| n |	y	| The card will render when user clicks on a car from gallery|
+|Dropdown	functional|	n	| y	| Dropdown search input will allow the user to search cars by selecting an option|
+|Summary card	class|	n	| y	| Component will contain meal plan summary and render on submit|
+|Contact Form	functional|	n	| n	| There will be a contact form rendered through a link in the header|
+|Footer	functional|	n |	n	|The footer will have links to contact and about info |
 
 ### Priority Matrix:
 
