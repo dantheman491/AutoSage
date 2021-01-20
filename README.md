@@ -48,12 +48,12 @@ Airtable enabled API
 
  Component | Priority | Estimated Time |  Actual Time |
 | --- | :---: |  :---: | :---: |
-| REACT JS | H | 3hrs| 4hrs|
-| CSS | H | 3hrs | 6hrs|
-| Inputs | H | 1hrs| 3hrs|
-| API added | H | 5hrs|4hrs |
-| Testing | H | 3hrs|3hrs|
-| Total | H |18 hrs| 20hrs |
+| REACT JS | H | 3hrs| |
+| CSS | H | 5hrs | |
+| Inputs | H | 2hrs| |
+| API added | H | 2hrs| |
+| Testing | H | 3hrs||
+| Total | H |18 hrs| |
  
 ### Snippet: 
 
