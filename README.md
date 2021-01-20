@@ -51,7 +51,7 @@ Airtable enabled API
 <img src="https://user-images.githubusercontent.com/22455354/105203926-a70ab300-5b11-11eb-8e16-a4e66b494da4.jpg" width="250" height="400">|
 
 ### Component Heirarchy:
- <img src="https://user-images.githubusercontent.com/22455354/105209938-65313b00-5b18-11eb-92c7-b40c87ad5473.jpg" width="800" height="400">
+ <img src="https://user-images.githubusercontent.com/22455354/105209938-65313b00-5b18-11eb-92c7-b40c87ad5473.jpg" width="300" height="500">
 
 
 ###Component Breakdown
