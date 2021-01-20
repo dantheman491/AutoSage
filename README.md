@@ -11,7 +11,7 @@ Seeking sound advice on purchasing a used car can be difficult. It would be much
 Airtable enabled API
 
 ### API and Data Sample: 
-<img src="https://user-images.githubusercontent.com/22455354/105202398-f223c680-5b0f-11eb-8dff-14b4913eff66.png" width="300" height="400">
+<img src="https://user-images.githubusercontent.com/22455354/105202398-f223c680-5b0f-11eb-8dff-14b4913eff66.png" width="800" height="400">
 
 ### MVP Minimal Viable Product: 
 1. Build out React Js, CSS, HTML
@@ -35,7 +35,7 @@ Airtable enabled API
 
 |         Desktop                                                               |
 
-|<img src="https://user-images.githubusercontent.com/22455354/105115355-9f59f880-5a96-11eb-8463-9247af14464a.jpg" width="600" height="400">
+|<img src="https://user-images.githubusercontent.com/22455354/105115355-9f59f880-5a96-11eb-8463-9247af14464a.jpg" width="300" height="400">
 |<img src="https://user-images.githubusercontent.com/22455354/105198997-4331bb80-5b0c-11eb-844a-48bf64a79857.jpg" width="300" height="400">
 |<img src="https://user-images.githubusercontent.com/22455354/105199011-475dd900-5b0c-11eb-849b-329835b63bea.jpg" width="300" height="400">
 |<img src="https://user-images.githubusercontent.com/22455354/105198982-3f059e00-5b0c-11eb-9166-1e219799b218.jpg" width="300" height="400">|
