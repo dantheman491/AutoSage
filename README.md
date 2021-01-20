@@ -33,7 +33,8 @@ Airtable enabled API
 ### Wireframes
 
 
-|         Desktop                                                               |
+|         Desktop          |
+| -------------------------|
 
 |<img src="https://user-images.githubusercontent.com/22455354/105115355-9f59f880-5a96-11eb-8463-9247af14464a.jpg" width="300" height="400">
 |<img src="https://user-images.githubusercontent.com/22455354/105198997-4331bb80-5b0c-11eb-844a-48bf64a79857.jpg" width="300" height="400">
@@ -55,14 +56,14 @@ Airtable enabled API
 
 
 ### Component Breakdown
-Component	Type	State	Props	Description
-Header	functional	n	n	The header will contain the navigation and logo.
-car	class	y	y	The gallery will render the cars using card divs in flex-gird
-car Card	class	n	y	_The card will render when user clicks on a car from gallery
-dropdown	functional	n	y	dropdown search input will allow the user to search cars by selecting an option
-summary card	class	n	y	Component will contain meal plan summary and render on submit
-Contact Form	functional	n	n	Will be a contact form rendered through a link in the header
-Footer	functional	n	n	_The footer will have links to contact and about info _
+|Component	Type	State	Props	Description|
+|Header	functional|	n	|n	|The header will contain the navigation and logo.|
+|Car	class|	y	|y	|The gallery will render the cars using card divs in flex-gird|
+|Car Card|	class	|n|	y	|The card will render when user clicks on a car from gallery|
+|Dropdown	functional|	n	|y	dropdown search input will allow the user to search cars by selecting an option|
+|Summary card	class|	n	|y	Component will contain meal plan summary and render on submit|
+|Contact Form	functional|	n	|n	|Will be a contact form rendered through a link in the header|
+|Footer	functional|	n|	n	|The footer will have links to contact and about info |
 ### Priority Matrix:
 
 <img src="https://user-images.githubusercontent.com/22455354/105115215-6a4da600-5a96-11eb-9779-c9ae0b608a8a.jpg" width="400" height="400">
