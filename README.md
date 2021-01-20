@@ -57,6 +57,25 @@ Airtable enabled API
 
 ### Component Breakdown:
 
+  Component | Priority | Estimated Time |  Actual Time |
+| --- | :---: |  :---: | :---: |
+|Header Nav | H | 3hrs| |
+|Footer| H | 2hrs||
+|drop-down menu| H|2hrs||
+| Finish Setup airtable API| H| |
+| Add API | H | 4hrs | |
+| Setup Route| H| 3hrs||
+| Setup Links | H | 4hrs| |
+| API added | H | 2hrs| |
+| Testing | H | 3hrs||
+|CSS| H|6hrs||
+| Total | H | hrs| |
+
+
+
+
+
+
 Component |	Type |	State |	Props |	Description |
 | --- | :---: |  :---: | :---: |
 |Header	functional|	n	| n	| The header will contain the navigation and logo.|
