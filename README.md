@@ -54,8 +54,7 @@ Airtable enabled API
  <img src="https://user-images.githubusercontent.com/22455354/105213873-408b9200-5b1d-11eb-9068-9abf72daecb9.jpg" width="300" height="500">
 
 
-###Component Breakdown
-
+### Component Breakdown
 Component	Type	State	Props	Description
 Header	functional	n	n	The header will contain the navigation and logo.
 car	class	y	y	The gallery will render the cars using card divs in flex-gird
