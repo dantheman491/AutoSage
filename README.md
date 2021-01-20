@@ -19,7 +19,7 @@ Airtable enabled API
 3. Once the selection is complete, a list of vehicles will be generated based on the parameter selected.
 4. If the user is not satisfied with the selections, they will be able to go to back and select another option.
 5. Add media queries to change size of text on small device screens.
-6.User will be able to add a vehicle in a form. 
+6. Users will be able to add cars of their own.
 
 
 ### Post MVP: 
