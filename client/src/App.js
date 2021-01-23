@@ -1,16 +1,20 @@
 import "./App.css";
+import "./Components/Header.css";
+import "./Components/Form.css";
 import axios from "axios";
 import { useState } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
-//import CarList from "./Components/CarList";
+//import CarName from "./Components/CarName";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
 import { baseURL, config } from "./Services";
+import Form from "./Components/Form";
 import { useEffect } from "react";
 
 function App() {
   const [carInfo, getCarInfo] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
   useEffect(() => {
     const getAutos = async () => {
@@ -30,6 +34,16 @@ function App() {
         </div>
       </Route>
 
+      <Route path="/addACar">
+        <Form carInfo={carInfo} setToggleFetch={setToggleFetch} />
+        <h2>A form goes here!</h2>
+      </Route>
+      <Route path="/edit/:id">
+        <Form carInfo={carInfo} setToggleFetch={setToggleFetch} />
+      </Route>
+      {/* <Route path="/carName">
+        <CarName carArray={carInfo} />
+      </Route> */}
       <div className="footer">
         <Footer />
       </div>

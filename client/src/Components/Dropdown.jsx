@@ -1,4 +1,5 @@
 import React from "react";
+import "./Dropdown.css";
 //import { Link } from "react";
 //import CarList from "./CarList";
 
@@ -36,16 +37,19 @@ class Dropdown extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-          <label>Choose your budget to begin:</label>
+        <form id="dropdownresult" onSubmit={this.handleSubmit}>
+          <h2>SAGE ADVICE ON CARS THAT FIT YOUR BUDGET</h2>
           <select value={this.state.value} onChange={this.handleChange}>
-            <option value="2,000">2k</option>
-            <option value="5,000">5k</option>
-            <option value="10,000">10k</option>
-            <option value="15,000">15k</option>
-            <option value="20,000">20k</option>
+            <option value="Select a value to begin">
+              Select a value to begin
+            </option>
+            <option value="2,000">2,000</option>
+            <option value="5,000">5,000</option>
+            <option value="10,000">10,000</option>
+            <option value="15,000">15,000</option>
+            <option value="20,000">20,000</option>
           </select>
-          <button>Submit</button>
+          <button>Direct</button>
         </form>
         {this.state.value && (
           <div className="carinfo">
