@@ -4,7 +4,11 @@ import "./Header.css";
 function Header(props) {
   return (
     <div className="header">
-      <Link to="/"> Home </Link>
+      <Link id="home" to="/">
+        {" "}
+        Home{" "}
+      </Link>
+      <h1>AutoSage</h1>
       <Link to="/addACar"> Add a Car </Link>
     </div>
   );

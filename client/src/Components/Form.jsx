@@ -30,28 +30,36 @@ function Form(props) {
   };
   return (
     <form id="addcarform" action="">
-      <label htmlFor="Car Name">Car Year, Make, Model:</label>
+      <label id="carName" htmlFor="Car Name">
+        Car Year, Make, Model:
+      </label>
       <input
         name="type"
         type="text"
         value={carName}
         onChange={(e) => setCarName(e.target.value)}
       />
-      <label htmlFor="averagePrice">Average Price:</label>
+      <label id="averagePrice" htmlFor="averagePrice">
+        Average Price:
+      </label>
       <input
         name="Average Price"
         type="text"
         value={averagePrice}
         onChange={(e) => setAveragePrice(e.target.value)}
       />
-      <label htmlFor="description">Description:</label>
+      <label id="description" htmlFor="description">
+        Description:
+      </label>
       <input
         name="description"
         type="text"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button type="submit">Submit</button>
+      <button id="submit" type="submit">
+        Submit
+      </button>
     </form>
   );
 }

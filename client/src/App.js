@@ -26,7 +26,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Auto Sage</h1>
 
       <Route exact path="/">
         <div className="placeholder">
