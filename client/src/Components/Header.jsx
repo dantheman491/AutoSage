@@ -9,7 +9,10 @@ function Header(props) {
         Home{" "}
       </Link>
       <h1>AutoSage</h1>
-      <Link to="/addACar"> Add a Car </Link>
+      <Link id="link2add" to="/addACar">
+        {" "}
+        Add a Car{" "}
+      </Link>
     </div>
   );
 }

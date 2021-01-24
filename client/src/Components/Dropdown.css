@@ -6,9 +6,15 @@
   position: fixed;
   height: 50px;
   width: 100%;
-  margin-top: 34%;
+  text-align: center;
+  margin-top: 24.5%;
   margin-left: 0%;
+  padding-top: 1%;
   background-color: rgb(161, 161, 255);
+}
+#footerhome {
+  margin-top: 100px;
+  margin-left: -500px;
 }
 .carlist {
   background-color: blue;
@@ -58,7 +64,7 @@ button {
   color: white;
   height: 54px;
   width: 80px;
-  background-color: rgb(46, 139, 245);
+  background-color: rgb(37, 231, 111);
   border: 0px;
   border-color: white;
   border-radius: 4px;
