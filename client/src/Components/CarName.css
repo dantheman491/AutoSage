@@ -1,6 +1,8 @@
 #cars10 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
-  margin-left: 30%;
   font-family: "Open Sans", sans-serif;
 }
 #carname1 {
@@ -10,17 +12,19 @@
   font-weight: bold;
   font-size: 40px;
   color: rgb(121, 121, 121);
-  margin-left: 10%;
-  margin-right: 5%;
+
   margin-bottom: 2%;
-  padding-left: 10%;
+  padding-left: 1%;
 }
 
 #carname2 {
+  display: flex;
   color: rgb(121, 121, 121);
   text-align: center;
+  font-size: 32px;
 }
-#carname3 {
-  margin-left: 25%;
-  margin-right: 20%;
+#cardescription {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
 }

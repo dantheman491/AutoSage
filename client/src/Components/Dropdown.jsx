@@ -57,7 +57,7 @@ class Dropdown extends React.Component {
             {this.state.filterCars.map((car) => {
               return (
                 <div className="carlist">
-                  <Link key to={`/carName/${car.fields.carName}`}>
+                  <Link key={car.id} to={`/carName/${car.fields.carName}`}>
                     <h3>{car.fields.carName}</h3>
                   </Link>
                 </div>
@@ -69,5 +69,5 @@ class Dropdown extends React.Component {
     );
   }
 }
-//ReactDOM.render(<Dropdown />, document.getElementById("root"));
+
 export default Dropdown;

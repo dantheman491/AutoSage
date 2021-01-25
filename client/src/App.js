@@ -44,7 +44,7 @@ function App() {
       <Route path="/carName/:name">
         <CarName carDetail={carInfo} />
       </Route>
-      <div className="footer">
+      <div className="mainfooter">
         <Footer />
       </div>
     </div>

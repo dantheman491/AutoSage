@@ -15,7 +15,9 @@ function CarName(props) {
           <h3 id="carname2">{car.fields.averagePrice}</h3>
 
           <h2 id="carname1">{car.fields.carName}</h2>
-          <h4 id="carname3">{car.fields.description}</h4>
+          <div id="cardescription">
+            <h4 id="carname3">{car.fields.description}</h4>
+          </div>
         </div>
       )}
     </div>

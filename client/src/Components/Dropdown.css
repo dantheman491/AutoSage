@@ -3,20 +3,7 @@
   padding-bottom: 100px;
   background-color: #f9f9fb;
 }
-.footer {
-  position: relative;
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  margin-top: 8vh;
-  margin-left: 0%;
-  padding-top: 1%;
-  background-color: rgb(161, 161, 255);
-}
-#footerhome {
-  margin-left: 10%;
-  margin-right: 15%;
-}
+
 .carlist {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
@@ -54,18 +41,18 @@ select {
   height: 52px;
   font-family: sans-serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(173, 173, 173);
-  margin-left: 25%;
-  margin-right: -60px;
+  margin-left: 30%;
+  margin-right: -50px;
   margin-bottom: 150px;
-  padding-left: 40px;
+  padding-left: 10px;
   border-radius: 4px;
   border-color: white;
 }
 button {
   display: inline-flex;
-  margin-left: 70px;
+  margin-left: 60px;
   padding-top: 18px;
   justify-content: center;
   font-size: 18px;
@@ -94,4 +81,12 @@ button {
   margin-bottom: 10px;
   padding-top: 30px;
   background-color: white;
+}
+img {
+  margin-left: 48%;
+  margin-top: -200px;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  filter: invert(100%);
 }

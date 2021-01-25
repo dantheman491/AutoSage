@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function Footer(props) {
   return (
-    <div>
-      <Link id="footerhome" to="/">
+    <div id="mainfooter">
+      <Link id="footerlink" to="/">
         Home
       </Link>
     </div>
