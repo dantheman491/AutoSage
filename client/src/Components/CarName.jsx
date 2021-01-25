@@ -1,22 +1,24 @@
-//import React from "react";
-//import { useParams } from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
+//this page will be the summary of the individual car
+function CarName(props) {
+  const params = useParams();
+  console.log(props);
+  const car = props.carDetail.find((car) => {
+    return car.fields.carName === params.name;
+  });
+  console.log(car);
+  return (
+    <div className="car-details">
+      {car && (
+        <div id="cars10">
+          <h3 id="carname2">{car.fields.averagePrice}</h3>
 
-// function ShowPage(props) {
-//   const params = useParams();
-//   const carDetail = props.carDetail.filter((carDetail) => {
-//     return carDetail.carName === params.name;
-//   })[0];
-
-//   return (
-//     <div className="car-details">
-//       {carDetail && (
-//         <div>
-//           <h2>{carDetail.carName}</h2>
-//           <h3>{carDetail.averagePrice}</h3>
-//           <h4>{carDetail.description}</h4>
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-//export default CarName;
+          <h2 id="carname1">{car.fields.carName}</h2>
+          <h4 id="carname3">{car.fields.description}</h4>
+        </div>
+      )}
+    </div>
+  );
+}
+export default CarName;

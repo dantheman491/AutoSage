@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dropdown.css";
-//import { Link } from "react";
+import { Link } from "react-router-dom";
+
 //import CarList from "./CarList";
 
 class Dropdown extends React.Component {
@@ -56,7 +57,9 @@ class Dropdown extends React.Component {
             {this.state.filterCars.map((car) => {
               return (
                 <div className="carlist">
-                  <h3>{car.fields.carName} </h3>
+                  <Link key to={`/carName/${car.fields.carName}`}>
+                    <h3>{car.fields.carName}</h3>
+                  </Link>
                 </div>
               );
             })}

@@ -1,11 +1,12 @@
 import "./App.css";
 import "./Components/Header.css";
 import "./Components/Form.css";
+import "./Components/CarName.css";
 import axios from "axios";
 import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
-//import CarName from "./Components/CarName";
+import CarName from "./Components/CarName";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
 import { baseURL, config } from "./Services";
@@ -40,9 +41,9 @@ function App() {
       <Route path="/edit/:id">
         <Form carInfo={carInfo} setToggleFetch={setToggleFetch} />
       </Route>
-      {/* <Route path="/carName">
-        <CarName carArray={carInfo} />
-      </Route> */}
+      <Route path="/carName/:name">
+        <CarName carDetail={carInfo} />
+      </Route>
       <div className="footer">
         <Footer />
       </div>

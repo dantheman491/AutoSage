@@ -6,7 +6,6 @@ function Footer(props) {
       <Link id="footerhome" to="/">
         Home
       </Link>
-      {/* <Link to="/new">Add a Car</Link> */}
     </div>
   );
 }

@@ -1,25 +1,28 @@
 .carinfo {
   margin-top: 6%;
   padding-bottom: 100px;
+  background-color: #f9f9fb;
 }
 .footer {
-  position: fixed;
+  position: relative;
   height: 50px;
   width: 100%;
   text-align: center;
-  margin-top: 24.5%;
+  margin-top: 8vh;
   margin-left: 0%;
   padding-top: 1%;
   background-color: rgb(161, 161, 255);
 }
 #footerhome {
-  margin-top: 100px;
-  margin-left: -500px;
+  margin-left: 10%;
+  margin-right: 15%;
 }
 .carlist {
-  background-color: blue;
-  border: 2px solid;
-  border-color: red;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  border: 0.5px solid;
+  border-color: rgb(56, 122, 56);
+  border-radius: 4px;
   width: 50%;
   height: 90px;
   text-align: center;
@@ -31,13 +34,20 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 55px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 2%;
 }
+h3 {
+  text-decoration: none;
+  color: rgb(27, 172, 82);
+
+  text-decoration: none;
+}
 #dropdownresult {
   padding-top: 8%;
+  padding-bottom: 60px;
 }
 select {
   width: 450px;
@@ -46,10 +56,10 @@ select {
   font-weight: 400;
   font-size: 22px;
   color: rgb(173, 173, 173);
+  margin-left: 25%;
   margin-right: -60px;
   margin-bottom: 150px;
   padding-left: 40px;
-
   border-radius: 4px;
   border-color: white;
 }
@@ -64,7 +74,7 @@ button {
   color: white;
   height: 54px;
   width: 80px;
-  background-color: rgb(37, 231, 111);
+  background-color: rgb(27, 172, 82);
   border: 0px;
   border-color: white;
   border-radius: 4px;
@@ -74,10 +84,14 @@ button {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://images.pexels.com/photos/1266152/pexels-photo-1266152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center;
-  background-color: rgb(199, 199, 199);
-  height: 650px;
+  background-color: #f9f9fb;
+  background-size: cover;
+  height: 750px;
+  width: 100vw;
+  text-decoration: none;
 }
 .carlist {
+  margin-bottom: 10px;
   padding-top: 30px;
-  background-color: aliceblue;
+  background-color: white;
 }
