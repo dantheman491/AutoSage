@@ -6,6 +6,7 @@ function Footer(props) {
       <Link id="footerlink" to="/">
         Home
       </Link>
+      <h5>Daniel Ramirez</h5>
     </div>
   );
 }

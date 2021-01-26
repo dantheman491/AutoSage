@@ -4,7 +4,7 @@
   text-decoration: none;
   font-weight: bold;
   color: white;
-  margin-left: 950px;
+  margin-left: 935px;
 }
 @media only screen and (max-width: 768px) {
   #footerlink {
@@ -50,4 +50,10 @@
     padding-top: 1%;
     background-color: rgb(27, 172, 82);
   }
+}
+h5 {
+  color: white;
+  text-align: center;
+  margin-left: 925px;
+  margin-top: 1px;
 }
