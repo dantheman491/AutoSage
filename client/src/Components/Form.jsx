@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { baseURL } from "../Services";
+import { baseURL, config } from "../Services";
 
 function Form(props) {
   const [carName, setCarName] = useState("");
@@ -25,7 +25,7 @@ function Form(props) {
       averagePrice,
       description,
     };
-    await axios.post(baseURL, { fields });
+    await axios.post(baseURL, { fields }, config);
     props.setToggleFetch((prev) => !prev);
   };
   return (
@@ -44,9 +44,9 @@ function Form(props) {
       </label>
       <input
         name="Average Price"
-        type="text"
+        type="number"
         value={averagePrice}
-        onChange={(e) => setAveragePrice(e.target.value)}
+        onChange={(e) => setAveragePrice(e.target.valueAsNumber)}
       />
       <label id="description" htmlFor="description">
         Description:

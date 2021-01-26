@@ -82,11 +82,12 @@ button {
   padding-top: 30px;
   background-color: white;
 }
-img {
+#downarrow {
   margin-left: 48%;
   margin-top: -200px;
   display: flex;
   height: 40px;
   width: 40px;
   filter: invert(100%);
+  background-color: blue;
 }

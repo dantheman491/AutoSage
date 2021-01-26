@@ -1,20 +1,22 @@
 import React from "react";
-//import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 //this is where the Auto cards go to
 
 function CarList(props) {
-  //   const params = useParams();
-  //  // const carArray = props.carArray.filter((carArray) => {
-  //     return carArray.carName === params.carName;
-  //   })[0];
+  console.log(props);
   return (
     <div className="car-list">
-      <h3>more cars</h3>
-      {/* {carArray && (
-        <div>
-          <h3>{carArray.carName}</h3>
-        </div>
-      )} */}
+      <div className="carinfo">
+        {props.cars.map((car) => {
+          return (
+            <div className="carlist">
+              <Link key={car.id} to={`/carName/${car.fields.carName}`}>
+                <h3>{car.fields.carName}</h3>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

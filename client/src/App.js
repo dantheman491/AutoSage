@@ -31,6 +31,9 @@ function App() {
       <Route exact path="/">
         <div className="placeholder">
           <Dropdown carArray={carInfo} />
+          {/* <div id="downarrow">
+            <img src="https://static.thenounproject.com/png/849651-200.png"></img>
+          </div> */}
         </div>
       </Route>
 

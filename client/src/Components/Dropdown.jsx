@@ -1,8 +1,7 @@
 import React from "react";
 import "./Dropdown.css";
 import { Link } from "react-router-dom";
-
-//import CarList from "./CarList";
+import CarList from "./CarList.jsx";
 
 class Dropdown extends React.Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class Dropdown extends React.Component {
       filterCars: [],
     };
 
-    console.log(props);
+    console.log(this.state.value);
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,9 +24,8 @@ class Dropdown extends React.Component {
   handleSubmit(event) {
     //Link to carList
     //Show carCard
-    //<Link to="/Cars"></Link>;
     const filteredCars = this.props.carArray.filter((cars) => {
-      return cars.fields.averagePrice === this.state.value;
+      return cars.fields.averagePrice == this.state.value;
     });
     this.setState({
       filterCars: filteredCars,
@@ -44,27 +42,15 @@ class Dropdown extends React.Component {
             <option value="Select a value to begin">
               Select a value to begin
             </option>
-            <option value="2,000">2,000</option>
-            <option value="5,000">5,000</option>
-            <option value="10,000">10,000</option>
-            <option value="15,000">15,000</option>
-            <option value="20,000">20,000</option>
+            <option value="2000">2,000</option>
+            <option value="5000">5,000</option>
+            <option value="10000">10,000</option>
+            <option value="15000">15,000</option>
+            <option value="20000">20,000</option>
           </select>
           <button>Direct</button>
         </form>
-        {this.state.value && (
-          <div className="carinfo">
-            {this.state.filterCars.map((car) => {
-              return (
-                <div className="carlist">
-                  <Link key={car.id} to={`/carName/${car.fields.carName}`}>
-                    <h3>{car.fields.carName}</h3>
-                  </Link>
-                </div>
-              );
-            })}
-          </div>
-        )}
+        {this.state.value && <CarList cars={this.state.filterCars}></CarList>}
       </div>
     );
   }
