@@ -15,6 +15,18 @@
   margin-bottom: 2%;
   padding-left: 1%;
 }
+@media only screen and (max-width: 768px) {
+  #carname1 {
+    display: flex;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(121, 121, 121);
+    margin-bottom: 2%;
+    padding-left: 1%;
+  }
+}
 
 #carname2 {
   display: flex;

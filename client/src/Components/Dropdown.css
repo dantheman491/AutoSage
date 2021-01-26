@@ -3,6 +3,20 @@
   padding-bottom: 10px;
   text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  #dropdownresult {
+    padding-top: 4%;
+    padding-bottom: 6px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #dropdownresult {
+    padding-top: 3%;
+    padding-bottom: 1px;
+    text-decoration: none;
+  }
+}
 select {
   width: 450px;
   height: 52px;
@@ -16,6 +30,38 @@ select {
   padding-left: 8px;
   border-radius: 4px;
   border-color: white;
+}
+@media only screen and (max-width: 768px) {
+  select {
+    width: 350px;
+    height: 42px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    margin-left: 22%;
+    margin-right: -50px;
+    margin-bottom: 120px;
+    padding-left: 6px;
+    border-radius: 4px;
+    border-color: white;
+  }
+}
+@media only screen and (max-width: 425px) {
+  select {
+    width: 200px;
+    height: 42px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(173, 173, 173);
+    margin-left: 15%;
+    margin-right: -50px;
+    margin-bottom: 120px;
+    padding-left: 6px;
+    border-radius: 4px;
+    border-color: white;
+  }
 }
 button {
   display: inline-flex;
@@ -33,7 +79,42 @@ button {
   border-color: white;
   border-radius: 4px;
 }
-
+@media only screen and (max-width: 768px) {
+  button {
+    display: inline-flex;
+    margin-left: 60px;
+    padding-top: 12px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    height: 45px;
+    width: 80px;
+    background-color: rgb(27, 172, 82);
+    border: 0px;
+    border-color: white;
+    border-radius: 4px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  button {
+    display: inline-flex;
+    margin-left: 60px;
+    padding-top: 14px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    height: 43px;
+    width: 80px;
+    background-color: rgb(27, 172, 82);
+    border: 0px;
+    border-color: white;
+    border-radius: 4px;
+  }
+}
 .placeholder {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://images.pexels.com/photos/1266152/pexels-photo-1266152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -44,14 +125,25 @@ button {
   width: 100vw;
   text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .placeholder {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("https://images.pexels.com/photos/1266152/pexels-photo-1266152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-color: #f9f9fb;
     background-size: cover;
-    height: 350px;
+    height: 550px;
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .placeholder {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("https://images.pexels.com/photos/1266152/pexels-photo-1266152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-color: #f9f9fb;
+    background-size: cover;
+    height: 450px;
     width: 100vw;
   }
 }
