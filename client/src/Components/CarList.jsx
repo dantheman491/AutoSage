@@ -7,6 +7,10 @@ function CarList(props) {
   return (
     <div className="car-list">
       <div className="carinfo">
+        <img
+          id="arrow"
+          src="https://static.thenounproject.com/png/849651-200.png"
+        ></img>
         {props.cars.map((car) => {
           return (
             <div className="carlist">

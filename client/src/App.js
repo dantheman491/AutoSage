@@ -2,6 +2,8 @@ import "./App.css";
 import "./Components/Header.css";
 import "./Components/Form.css";
 import "./Components/CarName.css";
+import "./Components/Footer.css";
+import "./Components/CarList.css";
 import axios from "axios";
 import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
