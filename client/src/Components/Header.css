@@ -1,6 +1,6 @@
 #home {
   margin-right: 28%;
-  margin-left: 15%;
+  margin-left: 13%;
   text-decoration: none;
   color: rgb(61, 61, 61);
 }
@@ -23,7 +23,7 @@
 .header {
   display: inline-flex;
   padding-top: 50px;
-  padding-right: 200px;
+
   padding-bottom: 40px;
   height: 20px;
   width: 100%;

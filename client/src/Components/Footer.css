@@ -3,6 +3,51 @@
   bottom: 0;
   text-decoration: none;
   font-weight: bold;
-  margin-left: 50vw;
   color: white;
+  margin-left: 950px;
+}
+@media only screen and (max-width: 768px) {
+  #footerlink {
+    position: relative;
+    bottom: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 370px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #footerlink {
+    position: relative;
+    bottom: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 190px;
+  }
+}
+.mainfooter {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  margin-left: 0%;
+  padding-top: 1%;
+  background-color: rgb(27, 172, 82);
+}
+
+@media only screen and (max-width: 425px) {
+  .mainfooter {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    margin-left: 0%;
+    padding-top: 1%;
+    background-color: rgb(27, 172, 82);
+  }
 }

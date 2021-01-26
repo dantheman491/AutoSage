@@ -18,13 +18,13 @@
   }
 }
 select {
-  width: 450px;
+  width: 650px;
   height: 52px;
   font-family: sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: rgb(173, 173, 173);
-  margin-left: 35%;
+  margin-left: 30%;
   margin-right: -50px;
   margin-bottom: 120px;
   padding-left: 8px;
