@@ -11,7 +11,7 @@ Seeking sound advice on purchasing a used car can be difficult. It would be much
 Airtable enabled API
 
 ### API and Data Sample: 
-<img src="https://user-images.githubusercontent.com/22455354/105222979-31124600-5b29-11eb-9086-04347a7a9fba.png" width="800" height="400">
+<img src="https://user-images.githubusercontent.com/22455354/105884214-bb4d2500-5fd5-11eb-9ab6-591da82aacf3.png" width="800" height="400">
 
 ### MVP Minimal Viable Product: 
 1. Build out React Js, CSS, HTML
@@ -52,7 +52,7 @@ Airtable enabled API
 <img src="https://user-images.githubusercontent.com/22455354/105203926-a70ab300-5b11-11eb-8e16-a4e66b494da4.jpg" width="250" height="400">|
 
 ### Component Heirarchy:
- <img src="https://user-images.githubusercontent.com/22455354/105213873-408b9200-5b1d-11eb-9068-9abf72daecb9.jpg" width="300" height="500">
+ <img src="https://user-images.githubusercontent.com/22455354/105885970-dde03d80-5fd7-11eb-8de6-bef948f38c0c.jpg" width="300" height="500">
 
 
 ### Component Breakdown:
@@ -77,17 +77,16 @@ Airtable enabled API
 
  Component | Priority | Estimated Time |  Actual Time |
 | --- | :---: |  :---: | :---: |
-|Header Nav | H | 3hrs| |
-|Footer| H | 2hrs||
-|drop-down menu| H|2hrs||
-| Finish Setup airtable API| H| |
-| Add API | H | 4hrs | |
-| Setup Route| H| 3hrs||
-| Setup Links | H | 4hrs| |
-| API added | H | 2hrs| |
-| Testing | H | 3hrs||
-|CSS| H|6hrs||
-| Total | H | hrs| |
+|Header Nav | H | 3hrs|5hrs |
+|Footer| H | 2hrs|2hrs|
+|drop-down menu| H|2hrs|4hrs|
+| Finish Setup airtable API| H|30min |1hr|
+| Add API | H | 4hrs |2hrs |
+| Setup Route| H| 3hrs|3hrs|
+| Setup Links | H | 2hrs|3hrs |
+| Testing | H | 3hrs|4hrs|
+|CSS| H|4hrs|6hrs|
+| Total | H | hrs|22.5hrs|30hrs|
  
 ### Snippet: 
 
